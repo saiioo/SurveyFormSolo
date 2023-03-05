@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: #fff;
+    color:#222;
+    padding: 0;
+    height: 100vh;
+}
+#white{
+    background-color: #eee;
+} 
+#blue{
+    background-color: #1e41c1;
+}
+#orange{
+    background-color: #b64b1e;
+}
+#purple{
+    background-color: #7852ae;
+}
+#green{
+    background-color: #5faf3b;
+}
+#black{
+    background-color: #000;
+    color: white;
+}
+
+.App.white{
+    background: transparent linear-gradient(0deg, #8fc9e2 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+    body{
+        background: transparent linear-gradient(0deg, #c1d1d8 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+    }
+    .body{
+        background-color: #f8f8fa;
+        h3,h5{
+            color:#e8eaf0;
+        }
+        p{
+            color: black;
+        }
+    }
+    aside{
+        background-color: #1e41c1;
+    }
+    nav{
+        background-color: #b1badb;
+    }
+    .dropdown-container{
+        background-color: #b1badb;
+    }
+}
+
+.App.blue{
+    background-color: #bec7e7;
+    body{
+        background: transparent linear-gradient(0deg, #bec7e7 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+    }
+    .body{
+        background-color: #d6def4;
+        h3,h5{
+            color:#1e41c1;
+        }
+        p{
+            color: black;
+        }
+    }
+    aside{
+        background-color: #1e41c1;
+    }
+    nav{
+        background-color: #d6def4;
+    }
+    .dropdown-container{
+        background-color: #d6def4;
+    }
+}
+
+.App.orange{
+    background-color: #f4b9c7;
+    body{
+        background: transparent linear-gradient(0deg, #b64b1e 0%, #f4b9c7 100%) 0% 0% no-repeat padding-box;
+    }
+    .body{
+        background-color: #f4dfd6;
+        h3,h5{
+            color: #b64b1e;
+        }
+        p{
+            color: #000;
+        }
+    }
+    aside{
+        background-color: #b64b1e;
+    }
+    nav{
+        background-color: #f4dfd6;
+    }
+    .dropdown-container{
+        background-color: #f4dfd6;
+    }
+}
+.App.purple{
+    background-color: #d0b7f4;
+    body{
+        background: transparent linear-gradient(0deg, #7852ae 0%, #d0b7f4 100%) 0% 0% no-repeat padding-box;
+    }
+    .body{
+        background-color: #ecdfff;
+        h3,h5{
+            color: #7852ae;
+        }
+        p{ 
+            color: #000;
+        }
+    }
+    aside{
+        background-color: #7852ae;
+    }
+    nav{
+        background-color: #ecdfff;
+    }
+    .dropdown-container{
+        background-color: #ecdfff;
+    }
+}
+.App.green{
+    background-color: #c3e3c1;
+    body{
+        background: transparent linear-gradient(0deg, #5faf3b 0%, #e2f6e1 100%) 0% 0% no-repeat padding-box;
+    }
+    .body{
+        background-color: #e2f6e1;
+        h3,h5{
+            color: #5faf3b;
+        }
+        p{
+            color: #000;
+        }
+    }
+    aside{
+        background-color: #5faf3b;
+    }
+    nav{
+        background-color: #e2f6e1;
+    }
+    .dropdown-container{
+        background-color: #e2f6e1;
+    }
+}
+.App.black{
+    background-color: #5c5c5c;
+    body{
+        background: transparent linear-gradient(0deg, #5c5c5c 0%, #fff 100%) 0% 0% no-repeat padding-box;
+    }
+    .body{
+        background-color: #333;
+        h3,h5{
+            color: #fff;
+        }
+        p{
+            color: #333;
+        }
+    }
+    aside{
+        background-color: #5c5c5c;
+    }
+    nav{
+        background-color: #5c5c5c;
+        
+    }
+    .dropdown-container{
+        background-color: #5c5c5c;
+    }
+}

@@ -1,0 +1,10 @@
+.question-div{
+    margin-left:50px;
+    
+}
+.option-div{
+    display: inline-flex;
+}
+.createQuestion-container{
+    min-height: 100vh;
+}

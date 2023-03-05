@@ -1,0 +1,29 @@
+
+.sidebar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #278DF1;
+    width: 37px;
+    height: 100vh;
+    position: fixed;
+    top: 53px;
+    margin: 0;
+}
+.sidebar-container .sidebar-element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    align-items: center;
+    margin: 5px;
+    width: 100%;
+    color: aliceblue;
+    transform: transition 0.6s;
+}
+.sidebar-container .sidebar-element:hover{
+    color:rgb(46, 191, 228);
+    background-color:white;
+    transition: ease-in-out;
+}

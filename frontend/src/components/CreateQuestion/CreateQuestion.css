@@ -1,0 +1,46 @@
+.backpageArrow a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    display: inline-flex;
+    padding: 5px;
+}
+.backpageArrow a p{
+    margin-left: 2px;
+}
+.question-addOption{
+    display: flex;
+    flex-direction: row;
+    width:80%
+}
+.question-Container{
+    margin-top: 10px;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.question-Container .question-field{
+    min-width:55vw ;
+    font-size: large;
+    border-radius: 3px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    height: 40px;
+}
+.question-Container .option-field{
+    min-width:20vw ;
+    font-size: large;
+    border-radius: 3px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    height: 40px;
+}
+.option-div{
+    margin-left: 20px;
+    margin: 3px;
+}
+.full-Question-option{
+    margin-top: 5px;
+}
+

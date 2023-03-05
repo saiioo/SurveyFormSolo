@@ -1,0 +1,30 @@
+.dropdown-container{
+    width: 100px;
+    height: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: white;
+    padding: 0;
+    margin: 0, auto;
+}
+.dropdown-container .dropdown-btn{
+    width: 100%;
+    padding: 5px;
+    background: #ecdfdf;
+    box-shadow: 3px 3px 10px 6px rgb(0,0,0,0.16);
+    font-weight: bold;
+    color: #333;
+}
+.dropdown-container .dropdown-content .dropdown-item{
+    padding: 2px;
+    border: 0.2px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.dropdown-container .dropdown-content .dropdown-item:hover{
+    background-color: #ecdfdf;
+}
+
+

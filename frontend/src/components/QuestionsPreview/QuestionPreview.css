@@ -1,0 +1,13 @@
+.backpageArrow{
+    display: inline-flex;
+}
+.preview-container{
+    min-height: 100vh;
+}
+.prev-response{
+    font-size: x-large;
+    background-color: green;
+    color: beige;
+    border: none;
+    border-radius:20px ;
+}
