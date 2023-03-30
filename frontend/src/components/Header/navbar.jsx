@@ -1,5 +1,5 @@
 import { FaBookOpen } from "react-icons/fa";
-import ThemeDropDown from "../ThemesDropDownMenu/themeDropDown"
+// import ThemeDropDown from "../ThemesDropDownMenu/themeDropDown"
 import "./navbar.css"
 import Logout from "./logout";
 import localname from "./localname";
@@ -17,7 +17,7 @@ const Navbar = ()=>{
             </div>
             <span className="Logout"><Logout/></span>
             <div className="dropdown-btn">
-            <ThemeDropDown/>
+//             <ThemeDropDown/>
             </div>
         </nav>
     )
