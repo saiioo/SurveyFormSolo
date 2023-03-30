@@ -18,14 +18,14 @@ import ProtectedRoutes from './components/ProtectedRoutes/protectedRoutes';
 
 
 function App() {
-  const [theme,setTheme] = useState('white')
+//   const [theme,setTheme] = useState('white')
   
-  useEffect(()=>{
-    const color = localStorage.getItem('theme-color')
-      setTheme(color)
-  },[theme])
+//   useEffect(()=>{
+//     const color = localStorage.getItem('theme-color')
+//       setTheme(color)
+//   },[theme])
   return (
-    <div  className={`App ${theme}`}>
+    <div  >
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<Login />}/>
